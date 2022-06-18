@@ -1,7 +1,17 @@
+import React from "react";
+// Components
+import Sidebar from "./components/Sidebar";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Submenu from "./components/Submenu";
+
 function App() {
   return (
     <>
-      <h2>Stripe submenues</h2>
+      <Navbar />
+      <Sidebar />
+      <Hero />
+      <Submenu />
     </>
   );
 }
